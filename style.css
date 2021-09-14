@@ -1,0 +1,111 @@
+/* This styles everying in the nava nd menu */
+/* remember to use (.) to call on the div*/
+/* The h1 tag is not classed all h1 are being effected*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(8, 61, 207);
+}
+/* This messes with the background of the menu the <na>*/
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+}
+
+ul{
+/* If you add a margin-left is moves left with px size*/
+}
+/* This messes with the positon of the menu*/
+ul li{
+
+    list-style: none;
+    line-height: 100px;
+    float: left;
+    line-height: 100px;
+    padding: 0 100px;
+}
+/* This messes with the menu tags like docoration or underline effect */
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding: 0 20;
+/* padding is used for the spacing of the menu links on where you can click*/
+}
+/* Hover effect on the menu when to show selection*/
+ul li a:hover{
+    color:red;
+}
+h1{
+    text-align: center;
+}
+/* remember to add (.) to call on the div class*/
+.homep{
+    text-align: center;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Position sets the place of the text with px*/
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+ /* Need to add padding for image to show in css!!! when adding an online pic*/
+.picme{
+     width: 501px;
+     padding: 50em;
+     background-image: url(https://scontent-dfw5-1.xx.fbcdn.net/v/t31.18172-8/704276_388171197933420_1881319165_o.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9ftAlYQBs6wAX9qHHD7&_nc_ht=scontent-dfw5-1.xx&oh=7c4ae11483b7a9cf868a18fee9e06cef&oe=6165FE79);
+     background-repeat: no-repeat;
+     background-position: center left 125px;
+    
+}
+.whop{
+    font-weight: 300px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left: 150px;
+    top: 155px;
+    color: rgb(60, 255, 0);
+    
+
+}
+
+.whoi{
+    padding: 30em;
+    background-image: url(https://i.pinimg.com/originals/cd/98/87/cd9887a99ed579605a92c1bd8b22cc3f.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.whatp{
+    color: rgb(255, 7, 234);
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Position sets the place of the text with px*/
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+.whati{
+    padding: 20em;
+    background-image: url(https://wallpaperaccess.com/full/675901.jpg);
+   
+}
+.contactl{
+    font-size: 35px;
+    color: red;
+}
+.contactl a{
+    color:yellow
+}
+.contactl a:hover{
+    color: black;
+}
